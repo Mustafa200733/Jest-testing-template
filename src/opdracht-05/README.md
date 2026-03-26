@@ -31,7 +31,9 @@ Bekijk deze pagina:
 1. Open `src/opdracht-05/quizScore.test.js`
 2. **Belangrijk:** Vul eerst `beforeEach()` in met quiz antwoorden
 3. Gebruik die `quizAnswers` in je tests
-4. Run: `npm test opdracht-05`
+4. Run: `npm test -- opdracht-05`
+   - Werkt `npm` niet in PowerShell? Probeer `npm.cmd test -- opdracht-05`
+   - Krijg je een `spawn EPERM` fout? Voeg `--runInBand` toe
 5. Alle tests groen? Je bent klaar! ✅
 
 ## Tips
